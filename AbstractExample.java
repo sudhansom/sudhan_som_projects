@@ -6,12 +6,12 @@ abstract class Writer{
 
 class Pen extends Writer{
     public void write(){
-        System.out.println("i am a pen");
+        System.out.println("i am a Pen");
     }
 }
 class Pencil extends Writer{
     public void write(){
-        System.out.println("i am a pencil");
+        System.out.println("i am a Pencil");
     }
 }
 class Dotpen extends Writer{
@@ -30,6 +30,6 @@ public class AbstractExample{
         Writer p = new Pen();
         Writer pc = new Pencil();
         Writer dp = new Dotpen();
-        k.display(dp);
+        k.display(p);
     }
 }
